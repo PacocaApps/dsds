@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<title>Paçoca Industries</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2017/01/15/earth-mountain-range-wallpaper.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+        
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-black">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    PI
+  </div>
+  <div class="w3-display-middle" style="color: white">
+    <h1 class="w3-jumbo w3-animate-top">Paçoca Industries</h1>
+    <hr class="w3-border-black" style="margin:auto;width:60%">
+    <p class="w3-large w3-center" style="color:black"> The official Webserver</p>
+     
+    <center><form>
+       <input type="text" id="textdata"></input>
+       
+     </form>
+     <BR>
+     <button onclick="checktext();" class="pure-button pure-button-primary">SDS</button>
+    </center>
+    
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    <a href="" target="_blank">paçoca industries &copy; 2020</a>
+  </div>
+</div>
+<script>
+  var x;
+function checktext(){
+ x  = document.getElementById("textdata");
+ var y = x.value;
+ if(y === "alert"){
+   alert("Alert")
+ }else if(y === "norma"){
+   window.open("file:///D:/dc/edith/pacocaWebsite/Norma/index.html")
+ }
+
+}
+
+
+
+</script>
+</body>
+</html>
